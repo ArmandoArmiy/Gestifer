@@ -1,0 +1,1551 @@
+2023-05-10 13:40:48 error: [Cake\Http\Exception\MissingControllerException] Controller class Customers_buy could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Customers_buy',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Customers_buy',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /customers_buy/index
+2023-05-10 13:40:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Customers_buys could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Customers_buys',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Customers_buys',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /customers_buys/index
+2023-05-10 13:45:06 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 394
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:170
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /customers/add
+Referer URL: http://localhost:8765/customers/add
+2023-05-10 16:22:42 error: [Cake\Http\Exception\MissingControllerException] Controller class Customeres could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Customeres',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Customeres',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /customeres/index
+2023-05-11 01:24:39 error: [Cake\Http\Exception\MissingControllerException] Controller class Esttilos.css could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Esttilos.css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Esttilos.css',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /esttilos.css
+Referer URL: http://localhost:8765/
+2023-05-11 01:24:40 error: [Cake\Http\Exception\MissingControllerException] Controller class Truper.png could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Truper.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Truper.png',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /truper.png
+Referer URL: http://localhost:8765/
+2023-05-11 01:24:40 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.jpg could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Logo.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Logo.jpg',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /logo.jpg
+Referer URL: http://localhost:8765/
+2023-05-11 01:25:33 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Webroot',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /webroot/css/inicio.css
+Referer URL: http://localhost:8765/
+2023-05-11 01:25:33 error: [Cake\Http\Exception\MissingControllerException] Controller class Truper.png could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Truper.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Truper.png',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /truper.png
+Referer URL: http://localhost:8765/
+2023-05-11 01:25:34 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.jpg could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Logo.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Logo.jpg',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /logo.jpg
+Referer URL: http://localhost:8765/
+2023-05-11 01:27:50 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Webroot',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /webroot/css/inicio.css
+Referer URL: http://localhost:8765/
+2023-05-11 01:27:50 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Webroot',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /webroot/img/trupper.png
+Referer URL: http://localhost:8765/
+2023-05-11 01:27:50 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.jpg could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Logo.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Logo.jpg',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /logo.jpg
+Referer URL: http://localhost:8765/
+2023-05-11 01:32:06 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Webroot',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /webroot/css/inicio.css
+Referer URL: http://localhost:8765/
+2023-05-11 01:32:06 error: [Cake\Http\Exception\MissingControllerException] Controller class ... could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => '...',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => '...',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /.../webroot/img/truper.png
+Referer URL: http://localhost:8765/
+2023-05-11 01:32:06 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.jpg could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Logo.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Logo.jpg',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /logo.jpg
+Referer URL: http://localhost:8765/
+2023-05-11 01:34:42 error: [Cake\Http\Exception\MissingControllerException] Controller class Webroot could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Webroot',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /webroot/css/inicio.css
+Referer URL: http://localhost:8765/
+2023-05-11 01:34:43 error: [Cake\Http\Exception\MissingControllerException] Controller class Inicio.css could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Inicio.css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Inicio.css',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /inicio.css
+Referer URL: http://localhost:8765/
+2023-05-11 01:34:43 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.jpg could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Logo.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Logo.jpg',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /logo.jpg
+Referer URL: http://localhost:8765/
+2023-05-11 01:35:19 error: [Cake\Http\Exception\MissingControllerException] Controller class Inicio.css could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Inicio.css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Inicio.css',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /inicio.css
+Referer URL: http://localhost:8765/
+2023-05-11 01:35:19 error: [Cake\Http\Exception\MissingControllerException] Controller class Inicio.css could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Inicio.css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Inicio.css',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /inicio.css
+Referer URL: http://localhost:8765/
+2023-05-11 01:35:19 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.jpg could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Logo.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Logo.jpg',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /logo.jpg
+Referer URL: http://localhost:8765/
+2023-05-11 01:36:03 error: [Cake\Http\Exception\MissingControllerException] Controller class Inicio.css could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Inicio.css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Inicio.css',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /inicio.css
+Referer URL: http://localhost:8765/
+2023-05-11 01:36:03 error: [Cake\Http\Exception\MissingControllerException] Controller class Logo.jpg could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Logo.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Logo.jpg',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:333
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /logo.jpg
+Referer URL: http://localhost:8765/
+2023-05-11 03:16:45 error: [Cake\Http\Exception\MissingControllerException] Controller class Coustomers could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Coustomers',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Coustomers',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /coustomers/index
+2023-05-11 15:08:03 error: [Cake\Http\Exception\MissingControllerException] Controller class Templates could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Templates',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Templates',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /templates/Customers/index
+Referer URL: http://localhost:8765/
+2023-05-11 15:09:03 error: [Cake\Http\Exception\MissingControllerException] Controller class Templates could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Templates',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Templates',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /templates/Customers/index
+Referer URL: http://localhost:8765/
+2023-05-11 15:09:08 error: [Cake\Http\Exception\MissingControllerException] Controller class Templates could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Templates',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Templates',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /templates/Customers/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 15:10:55 error: [Cake\Http\Exception\MissingControllerException] Controller class Templates could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Templates',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Templates',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /templates/Buys/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 15:11:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Templates could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Templates',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Templates',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /templates/Customers/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 15:14:37 error: [Cake\Http\Exception\MissingControllerException] Controller class Templates could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Templates',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Templates',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /templates/Customers/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 15:15:49 error: [Cake\Http\Exception\MissingControllerException] Controller class Templates could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Templates',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Templates',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /templates/Customers/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 15:17:56 error: [Cake\Controller\Exception\MissingActionException] Action CustomersController::index.php() could not be found, or is not accessible. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'index.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /Customers/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 15:18:48 error: [Cake\Controller\Exception\MissingActionException] Action CustomersController::index.php() could not be found, or is not accessible. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'index.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /Customers/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 15:18:58 error: [Cake\Controller\Exception\MissingActionException] Action CustomersController::index.php() could not be found, or is not accessible. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'index.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /Customers/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 15:19:10 error: [Cake\Controller\Exception\MissingActionException] Action CustomersController::index.php() could not be found, or is not accessible. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'index.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /Customers/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 15:19:44 error: [Cake\Controller\Exception\MissingActionException] Action CustomersController::index.php() could not be found, or is not accessible. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'CustomersController',
+  'action' => 'index.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /Customers/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 15:20:16 error: [Cake\Http\Exception\MissingControllerException] Controller class Templates could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Templates',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Templates',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /templates/Customers/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 15:23:35 error: [Cake\Http\Exception\MissingControllerException] Controller class Gestifer could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Gestifer',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Gestifer',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /Gestifer/templates/Customers/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 15:36:18 error: [Cake\Http\Exception\MissingControllerException] Controller class Gestifer could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Gestifer',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Gestifer',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /Gestifer/templates/Customers/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 15:36:23 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver.php on line 133
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:164
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:51
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:216
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Connection.php:418
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Table.php:520
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Query.php:290
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Query.php:184
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Table.php:1714
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Table.php:1269
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:211
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:180
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\Controller.php:958
+- C:\wamp64\www\Gestifer\src\Controller\BuysController.php:21
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver.php on line 125
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver.php:125
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:164
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:51
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:216
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Connection.php:418
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Table.php:520
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Query.php:290
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Query.php:184
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Table.php:1714
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Table.php:1269
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:211
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:180
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\Controller.php:958
+- C:\wamp64\www\Gestifer\src\Controller\BuysController.php:21
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /buys/index
+2023-05-11 15:36:28 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver.php on line 133
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:164
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:51
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:216
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Connection.php:418
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Table.php:520
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Query.php:290
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Query.php:184
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Table.php:1714
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Table.php:1269
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:211
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:180
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\Controller.php:958
+- C:\wamp64\www\Gestifer\src\Controller\PaymentsController.php:24
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver.php on line 125
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver.php:125
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:164
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:51
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:216
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Database\Connection.php:418
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Table.php:520
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Query.php:290
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Query.php:184
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Table.php:1714
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\ORM\Table.php:1269
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:211
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:180
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\Controller.php:958
+- C:\wamp64\www\Gestifer\src\Controller\PaymentsController.php:24
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /payments/index
+2023-05-11 15:36:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Gestifer could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Gestifer',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Gestifer',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /Gestifer/templates/Customers/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 15:47:25 error: [Cake\Http\Exception\MissingControllerException] Controller class Templates could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Templates',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Templates',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /templates/Customers/index
+Referer URL: http://localhost:8765/buys/index
+2023-05-11 16:03:37 error: [Cake\Http\Exception\MissingControllerException] Controller class Gestifer could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Gestifer',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Gestifer',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /Gestifer/templates/Customers/index.php
+Referer URL: http://localhost:8765/
+2023-05-11 16:04:04 error: [Cake\Http\Exception\MissingControllerException] Controller class Gestifer could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Gestifer',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Gestifer',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /Gestifer/templates/Customers/index
+Referer URL: http://localhost:8765/
+2023-05-16 03:59:37 error: [Cake\Http\Exception\MissingControllerException] Controller class Page could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Page',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Page',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /page/abono
+Referer URL: http://localhost:8765/
+2023-05-16 04:12:13 error: [Cake\Http\Exception\MissingControllerException] Controller class Page could not be found. in C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Page',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Page',
+)
+Stack Trace:
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\wamp64\www\Gestifer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\Gestifer\webroot\index.php:40
+
+Request URL: /page/abono
+Referer URL: http://localhost:8765/
